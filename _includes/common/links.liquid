@@ -1,0 +1,26 @@
+{%- comment %} dns-prefetch {% endcomment %}
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+{%- comment %} canonical link {% endcomment -%}
+{%- if prev -%}
+    <link rel="prev" href="{{ prev.url | absolute_url }}">
+{%- endif -%}
+
+{%- if next -%}
+    <link rel="next" href="{{ next.url | absolute_url }}">
+{%- endif -%}
+
+<link rel="canonical" href="{{ schema_surl }}">
+
+{%- comment %} favicon icon {% endcomment -%}
+<link rel="icon" type="image/ico" href="{{ site.baseurl }}/assets/images/ico.ico">
+{%- comment %} alternate {% endcomment -%}
+<link rel="icon" type="image/ico" href="{{ site.baseurl }}/assets/images/ico.ico" sizes="16x16">
+<link rel="icon" type="image/ico" href="{{ site.baseurl }}/assets/images/ico.ico" sizes="32x32">
+<link rel="icon" type="image/ico" href="{{ site.baseurl }}/assets/images/ico.ico" sizes="96x96">
+
+{%- comment %} safari {% endcomment -%}
+<link rel="mask-icon" href="{{ site.baseurl }}/assets/images/ico.ico" color="{{ theme_color }}">
+
+{%- comment %} apple-touch-icon {% endcomment -%}
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/ico.ico">
