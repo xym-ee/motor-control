@@ -1,4 +1,7 @@
 
+![GitHub last commit](https://badgen.net/github/last-commit/Meng2025/motor-control/main)
+![Github commits](https://badgen.net/github/commits/Meng2025/motor-control/main)
+![no problems](https://badgen.net/badge/no%20problem/(maybe)/red)
 
 **这个笔记本将要整理的内容：**
 - [ ] 电机学基础
