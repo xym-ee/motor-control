@@ -84,9 +84,9 @@ $$ \oint_l \boldsymbol{H \cdot l} = \sum i $$
 
 - 磁路的基尔霍夫第一定律
 
-<center>
+<figure>
     <img src="./chapter1/images/磁路基尔霍夫第一定律.jpg" width=200 />
-</center>
+</figure>
 
 线圈通电，会产生磁通，有
 
