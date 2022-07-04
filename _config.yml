@@ -3,7 +3,8 @@ description:  xyMeng
 
 theme: null
 
-siteurl: "https://xu.yumeng.website/motor-control"
+url: "https://xu.yumeng.tech"
+baseurl: "/electronics"
 
 # debug:
 #   compress: true
