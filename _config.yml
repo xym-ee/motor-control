@@ -4,7 +4,7 @@ description:  xyMeng
 theme: null
 
 url: "https://xu.yumeng.tech"
-baseurl: "/electronics"
+baseurl: "/motor-control"
 
 # debug:
 #   compress: true
