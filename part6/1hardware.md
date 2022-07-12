@@ -35,7 +35,9 @@ STM32 Nucleo-F446RE
 
 ## 功率板
 
-- [Arduino-SimpleFOCShield](https://github.com/simplefoc/Arduino-SimpleFOCShield)
+这些功率板样子区别挺大，但是本质上都是6管逆变电路，有的是6个分离MOS管，有的是2个MOS管封装成一片（BTN芯片），也有6个MOS管封装成一片的方案。
+
+有意思的是ST的控制板支持Arduino的模块，ST的功率板也支持Arduino的控制板，所以约定一个通用接口还是很方便的，就像搭积木一样搭出一个复杂电子系统。
 
 SimpleFOC的低成本驱动方案：
 
@@ -63,6 +65,38 @@ ST公司的中小功率电机驱动方案
 有意思的是ST的控制板支持Arduino的模块，ST的功率板也支持Arduino的控制板，所以约定一个通用接口还是很方便的，就像搭积木一样搭出一个复杂电子系统。
 
 功率板只是完成对主板板输出的PWM信号的放大，因此无所谓用什么板。初学可以直接使用开源的驱动板，到后面应用于大功率电机时自己设计也可以。
+
+### L6234 小功率板
+
+- [Arduino-SimpleFOCShield](https://github.com/simplefoc/Arduino-SimpleFOCShield)
+
+SimpleFOC的低成本驱动方案：
+
+<figure>
+    <img src="./images/v204.png" width=180 >
+    <figcaption>小功率驱动板</figcaption>
+</figure>
+
+### BTN 大功率方案
+
+SimpleFOC的大功率电机驱动方案：
+
+<figure>
+    <img src="./images/power02.png" width=180 >
+    <figcaption>大功率驱动板</figcaption>
+</figure>
+
+
+### L6230 方案
+
+ST公司的中小功率电机驱动方案
+
+<figure>
+    <img src="./images/ihm007.png" width=180 >
+    <figcaption>小功率驱动板</figcaption>
+</figure>
+
+
 
 ## 转子位置传感器
 
